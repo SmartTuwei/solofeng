@@ -1,0 +1,53 @@
+@import "./constant.styl"
+html,body
+  height 100%
+  width 100%
+html,body,div,h1,h2,h3,h4,h5,h6,ol,ul,li,p,pre,input,div
+  font-family 'Helvetica',"PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif
+  padding 0
+  margin 0
+ul,li
+  list-style none
+body
+  font-family 'Helvetica',"PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif
+  color #000735
+  -webkit-font-smoothing antialiased
+pre, input, textarea, button
+  font-family 'Helvetica',"PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif
+a
+  color #000735
+  cursor pointer
+  text-decoration none
+
+img[src=""]
+  opacity 0
+
+.selectable
+  user-select auto
+
+.win
+  ::-webkit-scrollbar
+    width 7px
+    height 7px
+    background rgba(255, 255, 255, 0)
+
+  ::-webkit-scrollbar:window-inactive
+    display none
+
+  ::-webkit-scrollbar:hover
+    border-radius 4px
+    background rgba(0, 0, 0, 0.04)
+
+  ::-webkit-scrollbar-thumb
+    min-height 7px
+    min-width 7px
+    border-radius 4px
+    background rgba(0, 0, 0, 0.5)
+    
+  ::-webkit-scrollbar-thumb:hover
+    min-height 7px
+    min-width 7px
+    border-radius 4px
+    background rgba(0, 0, 0, 0.7)
+.none
+  display none
